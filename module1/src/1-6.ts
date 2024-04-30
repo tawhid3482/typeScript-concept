@@ -10,7 +10,11 @@ const sub =(num1:number,num2:number):number=>num1+num2
 const poorUser = {
     UserName:'Saikat',
     balance : 25,
-    addBalance(balance:number){
-        return this.balance + balance
+    addBalance(balance:number):string{
+        return `My Balance is : ${this.balance +balance}` 
     }
 }
+
+
+const arr: number[]=[1,65,2]
+const arrayNumber:number[] = arr.map((elem:number)=>elem*elem)
