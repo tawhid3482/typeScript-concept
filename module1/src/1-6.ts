@@ -1,3 +1,4 @@
+{
 // learning function
 function add(num1:number,num2:number):number{
 return num1 + num2
@@ -18,3 +19,4 @@ const poorUser = {
 
 const arr: number[]=[1,65,2]
 const arrayNumber:number[] = arr.map((elem:number)=>elem*elem)
+}
