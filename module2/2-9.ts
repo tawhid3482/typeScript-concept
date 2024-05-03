@@ -11,6 +11,6 @@
         car: string;
         ship: string
     }
-    type checkVehicle<T> = T extends 'bike' | 'car' | 'ship' ? true : false
+    type checkVehicle<T> = T extends keyof vehicle ? true : false
     type result = checkVehicle<'bike'>
 }
