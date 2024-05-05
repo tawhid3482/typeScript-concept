@@ -12,11 +12,11 @@
                 return this._balance
             }
            
-            class StudentAccount extends BankAccount{
-                test(){
-                    this.
-                }
-            }
+            // class StudentAccount extends BankAccount{
+            //     test(){
+            //         this.
+            //     }
+            // }
     }
 
     const goribAcc = new BankAccount(11,'ami',898)
