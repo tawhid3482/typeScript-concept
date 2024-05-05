@@ -38,5 +38,28 @@ class circle extends Shape {
         return Math.PI * this.redius * this.redius
     }
 }
+class rectange extends Shape {
+    height :number ;
+    width :number ;
+    constructor (height:number,width:number){
+        super()
+        this.height = height
+        this.width = width
+    }
+    getArea ():number{
+        return Math.PI * this.height * this.width
+    }
+}
+const getShapeArea = (param : Shape)=>{
+console.log(param.getArea())
+}
+
+const shape1 = new Shape()
+const shape2 = new circle(10)
+const shape3 = new rectange(10,5)
+getShapeArea(shape1)
+getShapeArea(shape2)
+getShapeArea(shape3)
+
 
 }
